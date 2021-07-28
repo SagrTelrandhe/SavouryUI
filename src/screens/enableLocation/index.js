@@ -70,7 +70,7 @@ class EnableLocation extends React.Component {
 
           <TouchableOpacity
             onPress={() => {
-              this.props.navigation.navigate('GoOn');
+              this.props.navigation.navigate('UseEffect');
             }}
             style={{
               height: '40%',

@@ -7,6 +7,7 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import GoOn from './src/screens/goOn';
 import JoinUS from './src/screens/joinUs';
 import EnableLocation from './src/screens/enableLocation';
+import UseEffect from './src/screens/useEffect';
 
 const Stack = createNativeStackNavigator();
 
@@ -19,6 +20,7 @@ const App = () => {
           <Stack.Screen name="GoOn" component={GoOn} />
           <Stack.Screen name="JoinUS" component={JoinUS} />
           <Stack.Screen name="EnableLocation" component={EnableLocation} />
+          <Stack.Screen name="UseEffect" component={UseEffect} />
         </Stack.Navigator>
       </NavigationContainer>
     </SafeAreaView>
